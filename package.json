@@ -4,8 +4,7 @@
   "description": "JavaScript development environment",
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
-    "start": "open:src",
-    "open:src": "node buildScripts/srcServer.js"
+    "start": "node buildScripts/srcServer.js"
   },
   "author": "Sylvain C",
   "license": "MIT",
